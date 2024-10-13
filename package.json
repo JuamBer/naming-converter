@@ -1,0 +1,31 @@
+{
+  "name": "naming-converter",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "naming",
+    "case-conversion",
+    "typescript",
+    "camel-case",
+    "snake-case",
+    "kebab-case",
+    "pascal-case"
+  ],
+  "author": "Juan Sáez García",
+  "license": "MIT",
+  "description": "A package for converting object keys and strings between different case types (camelCase, PascalCase, kebab-case, snake_case).",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
