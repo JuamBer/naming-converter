@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
+    "target": "ES5",
+    "module": "ESNext",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
-    "declaration": true
+    "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test.ts", "src/**/*.mock.ts"]
